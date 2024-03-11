@@ -43,11 +43,11 @@ node
  
  stage('EmailNotification')
  {
- mail bcc: 'devopstrainingblr@gmail.com', body: '''Build is over
+ mail bcc: 'olurantidare@gmail.com', body: '''Build is over
 
  Thanks,
  Mithun Technologies,
- 9980923226.''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'devopstrainingblr@gmail.com'
+ 9980923226.''', cc: 'olurantidare@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'olurantidare@gmail.com'
  }
  */
  
